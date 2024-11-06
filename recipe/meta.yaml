@@ -1,5 +1,5 @@
 {% set name = "mini_portile2" %}
-{% set version = "2.4.0" %}
+{% set version = "2.5.0" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: 7e178a397ad62bb8a96977986130dc81f1b13201c6dd95a48bd8cec1dda5f797
+  sha256: a7a7a09d646619d8efb0898169806266bf2982c70cc131fd285aa25e55bdabc1
 
 build:
   noarch: generic
@@ -32,7 +32,8 @@ about:
   license: MIT
   license_family: MIT
   license_file: {{ name }}-{{ version }}/LICENSE.txt
-  summary: Simplistic port-like solution for developers. It provides a standard and simplified way to compile against dependency libraries without messing up your system.
+  summary: Simplistic port-like solution for developers. It provides a standard and simplified way to compile against dependency libraries without messing up your
+    system.
 
   doc_url: https://www.rubydoc.info/gems/{{ name }}
   dev_url: https://github.com/flavorjones/mini_portile
